@@ -1,0 +1,592 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    e6f4ec72-fbb2-444e-9105-13cc87bde919:
+      size:
+        width: 330
+        height: 330
+      position:
+        x: 30
+        'y': 60
+      z: 1
+      embeds:
+        - 0aa3d0d0-611b-41be-af23-2c7f6b8b3c46
+        - 0ec068ac-0604-43be-8163-66704531a4f0
+        - 5e38429a-0891-4144-9a41-8dc8e350adff
+        - 2c11ff8a-de03-4543-9ab0-8f85ab22f120
+    219f72fc-3895-4976-8bb9-f156f077d3ad:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 810
+        'y': 90
+      z: 1
+      embeds: []
+    9053ebcf-0ffd-4f1f-ac3e-9940504e6f35:
+      source:
+        id: e6f4ec72-fbb2-444e-9105-13cc87bde919
+      target:
+        id: 219f72fc-3895-4976-8bb9-f156f077d3ad
+      z: 1
+    9d4d8579-4b3e-4f31-bd4b-a0a2f37d2332:
+      size:
+        width: 240
+        height: 240
+      position:
+        x: 810
+        'y': 420
+      z: 1
+      embeds:
+        - f28e1441-2010-4e17-99ea-8c43fc64dfb0
+    28379239-23d4-4059-962f-76b8aa89ed2a:
+      size:
+        width: 240
+        height: 240
+      position:
+        x: 210
+        'y': 90
+      z: 1
+      embeds:
+        - dd360d20-fb45-4106-a481-8855aea250ae
+    dd360d20-fb45-4106-a481-8855aea250ae:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 240
+        'y': 150
+      z: 2
+      parent: 28379239-23d4-4059-962f-76b8aa89ed2a
+      embeds: []
+      isassociatedwith:
+        - 219f72fc-3895-4976-8bb9-f156f077d3ad
+      iscontainedinside:
+        - 28379239-23d4-4059-962f-76b8aa89ed2a
+        - 28379239-23d4-4059-962f-76b8aa89ed2a
+        - 28379239-23d4-4059-962f-76b8aa89ed2a
+    83c2a831-b34a-4d62-8a76-af76430874cf:
+      size:
+        width: 150
+        height: 150
+      position:
+        x: 270
+        'y': 390
+      z: 1
+      embeds: []
+    3873e97e-d542-4c12-b8e1-9d97b8ca11b0:
+      size:
+        width: 150
+        height: 150
+      position:
+        x: 60
+        'y': 390
+      z: 1
+      embeds: []
+    b32dcbe0-f0c3-44a3-bafd-79bcc0c85546:
+      size:
+        width: 150
+        height: 150
+      position:
+        x: 510
+        'y': 300
+      z: 1
+      embeds: []
+    6e93f759-c0f0-4e1a-9b60-57ff1d8a89d9:
+      size:
+        width: 150
+        height: 150
+      position:
+        x: 510
+        'y': 90
+      z: 1
+      embeds: []
+    e2317fb3-b4f4-4c74-8a3f-7dbac237ae0b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 690
+        'y': 90
+      z: 1
+      embeds: []
+    865a5dad-863c-400f-a524-78b5a8d881ff:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 930
+        'y': 90
+      z: 1
+      embeds: []
+    f28e1441-2010-4e17-99ea-8c43fc64dfb0:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 840
+        'y': 480
+      z: 2
+      parent: 9d4d8579-4b3e-4f31-bd4b-a0a2f37d2332
+      embeds: []
+      iscontainedinside:
+        - 9d4d8579-4b3e-4f31-bd4b-a0a2f37d2332
+        - 9d4d8579-4b3e-4f31-bd4b-a0a2f37d2332
+    61e11de6-a6b0-45c1-b04f-e7824a30be2b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1020
+        'y': 290
+      z: 1
+      embeds: []
+    0aa3d0d0-611b-41be-af23-2c7f6b8b3c46:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 60
+        'y': 120
+      z: 2
+      parent: e6f4ec72-fbb2-444e-9105-13cc87bde919
+      embeds: []
+      iscontainedinside:
+        - e6f4ec72-fbb2-444e-9105-13cc87bde919
+    0ec068ac-0604-43be-8163-66704531a4f0:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 180
+        'y': 120
+      z: 2
+      parent: e6f4ec72-fbb2-444e-9105-13cc87bde919
+      embeds: []
+      iscontainedinside:
+        - e6f4ec72-fbb2-444e-9105-13cc87bde919
+    5e38429a-0891-4144-9a41-8dc8e350adff:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 60
+        'y': 240
+      z: 2
+      parent: e6f4ec72-fbb2-444e-9105-13cc87bde919
+      embeds: []
+      iscontainedinside:
+        - e6f4ec72-fbb2-444e-9105-13cc87bde919
+    2c11ff8a-de03-4543-9ab0-8f85ab22f120:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 180
+        'y': 240
+      z: 2
+      parent: e6f4ec72-fbb2-444e-9105-13cc87bde919
+      embeds: []
+      iscontainedinside:
+        - e6f4ec72-fbb2-444e-9105-13cc87bde919
+    4196ec39-48d6-4db2-8e96-bb86fc35b8cf:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1140
+        'y': 90
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 2c11ff8a-de03-4543-9ab0-8f85ab22f120
+    fc414c84-bba6-4302-a9ce-fe0b0757d36b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1260
+        'y': 90
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 0ec068ac-0604-43be-8163-66704531a4f0
+    a79901f0-af81-4848-8356-07a6a2be427a:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1320
+        'y': 300
+      z: 1
+      embeds: []
+    1b95e60c-2cc3-4a09-ba84-3b87fa1c8eb7:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 690
+        'y': 180
+      z: 1
+      embeds: []
+    308316fe-50bb-4b9f-b78f-b3e6d8c02b4e:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 810
+        'y': 180
+      z: 1
+      embeds: []
+Parameters:
+  VpcCIDR:
+    Default: 10.0.0.0/16
+    Description: VPC details
+    Type: String
+  PublicSubnet1CIDR:
+    Default: 10.0.1.0/24
+    Description: Public subnet 1
+    Type: String
+  PublicSubnet2CIDR:
+    Default: 10.0.2.0/24
+    Description: Public subnet 2
+    Type: String
+  PrivateSubnet1CIDR:
+    Default: 10.0.3.0/24
+    Description: Private subnet 1
+    Type: String
+  PrivateSubnet2CIDR:
+    Default: 10.0.4.0/24
+    Description: Private subnet 2
+    Type: String
+  SSHLocation:
+    AllowedPattern: '(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})/(\d{1,2})'
+    ConstraintDescription: Must be a valid CIDR range
+    Default: 0.0.0.0/0
+    MaxLength: '18'
+    MinLength: '9'
+    Type: String
+Resources:
+  VPC:
+    Type: 'AWS::EC2::VPC'
+    Properties:
+      CidrBlock: !Ref VpcCIDR
+      InstanceTenancy: default
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: e6f4ec72-fbb2-444e-9105-13cc87bde919
+  InternetGateway:
+    Type: 'AWS::EC2::InternetGateway'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 219f72fc-3895-4976-8bb9-f156f077d3ad
+  InternetGatwayAttachment:
+    Type: 'AWS::EC2::VPCGatewayAttachment'
+    Properties:
+      InternetGatewayId: !Ref InternetGateway
+      VpcId: !Ref VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9053ebcf-0ffd-4f1f-ac3e-9940504e6f35
+  phpsamplesubnetpublic1:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      AvailabilityZone: !Select 
+        - 0
+        - !GetAZs ''
+      CidrBlock: !Ref PublicSubnet1CIDR
+      MapPublicIpOnLaunch: true
+      VpcId: !Ref VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 6e93f759-c0f0-4e1a-9b60-57ff1d8a89d9
+  phpsamplesubnetpublic2:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      AvailabilityZone: !Select 
+        - 1
+        - !GetAZs ''
+      CidrBlock: !Ref PublicSubnet2CIDR
+      MapPublicIpOnLaunch: true
+      VpcId: !Ref VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b32dcbe0-f0c3-44a3-bafd-79bcc0c85546
+  phpsamplesubnetprivate1:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      AvailabilityZone: !Select 
+        - 0
+        - !GetAZs ''
+      CidrBlock: !Ref PrivateSubnet1CIDR
+      MapPublicIpOnLaunch: false
+      VpcId: !Ref VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 3873e97e-d542-4c12-b8e1-9d97b8ca11b0
+  phpsamplesubnetprivate2:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      AvailabilityZone: !Select 
+        - 1
+        - !GetAZs ''
+      CidrBlock: !Ref PrivateSubnet2CIDR
+      MapPublicIpOnLaunch: false
+      VpcId: !Ref VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 83c2a831-b34a-4d62-8a76-af76430874cf
+  phpsampleroutetablepublic:
+    Type: 'AWS::EC2::RouteTable'
+    Properties:
+      VpcId: !Ref VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 28379239-23d4-4059-962f-76b8aa89ed2a
+  phpsampleroutepublic:
+    Type: 'AWS::EC2::Route'
+    Properties:
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref InternetGateway
+      RouteTableId: !Ref phpsampleroutetablepublic
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: dd360d20-fb45-4106-a481-8855aea250ae
+  phpsamplepublicsubnetassociation1:
+    Type: 'AWS::EC2::SubnetRouteTableAssociation'
+    Properties:
+      RouteTableId: !Ref phpsampleroutetablepublic
+      SubnetId: !Ref phpsamplesubnetpublic1
+  phpsamplepublicsubnetassociation2:
+    Type: 'AWS::EC2::SubnetRouteTableAssociation'
+    Properties:
+      RouteTableId: !Ref phpsampleroutetablepublic
+      SubnetId: !Ref phpsamplesubnetpublic2
+  phpsampleroutetableprivate:
+    Type: 'AWS::EC2::RouteTable'
+    Properties:
+      VpcId: !Ref VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9d4d8579-4b3e-4f31-bd4b-a0a2f37d2332
+        
+  PhpMLEIP:
+    Type: 'AWS::EC2::EIP'
+    Properties:
+      Domain: vpc
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: e2317fb3-b4f4-4c74-8a3f-7dbac237ae0b
+        
+  PHPMLNAT:
+    Type: 'AWS::EC2::NatGateway'
+    Properties:
+      AllocationId: !GetAtt PhpMLEIP.AllocationId
+      SubnetId:
+        Ref: phpsamplesubnetpublic1
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 865a5dad-863c-400f-a524-78b5a8d881ff
+        
+  phpsamplerouteprivate:
+    Type: 'AWS::EC2::Route'
+    Properties:
+      DestinationCidrBlock: 0.0.0.0/0
+      NatGatewayId: !Ref PHPMLNAT
+      RouteTableId: !Ref phpsampleroutetableprivate
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: f28e1441-2010-4e17-99ea-8c43fc64dfb0
+  phpsampleprivatesubnetassociation1:
+    Type: 'AWS::EC2::SubnetRouteTableAssociation'
+    Properties:
+      RouteTableId: !Ref phpsampleroutetableprivate
+      SubnetId: !Ref phpsamplesubnetprivate1
+  phpsampleprivateubnetassociation2:
+    Type: 'AWS::EC2::SubnetRouteTableAssociation'
+    Properties:
+      RouteTableId: !Ref phpsampleroutetableprivate
+      SubnetId: !Ref phpsamplesubnetprivate2
+        
+  PHPAlbSG:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: SG Load balancer connecting to Port 80 http
+      VpcId: !Ref VPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          CidrIp: 0.0.0.0/0
+          FromPort: 80
+          ToPort: 80
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 0ec068ac-0604-43be-8163-66704531a4f0
+        
+  PHPECSSG:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: SG Ecs container
+      VpcId: !Ref VPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          SourceSecurityGroupId: !Ref PHPAlbSG
+          FromPort: 80
+          ToPort: 80
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 5e38429a-0891-4144-9a41-8dc8e350adff
+        
+  PHPRedisSG:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: SG Redis cluster connecting to Port 80 http
+      VpcId: !Ref VPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          CidrIp: 0.0.0.0/0
+          FromPort: 6379
+          ToPort: 6379
+        - IpProtocol: tcp
+          SourceSecurityGroupId: !Ref PHPECSSG
+          FromPort: 6379
+          ToPort: 6379
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 2c11ff8a-de03-4543-9ab0-8f85ab22f120
+  PHPALB:
+    Type: 'AWS::ElasticLoadBalancingV2::LoadBalancer'
+    Properties:
+      Name: 'phpalb'
+      Scheme: internet-facing
+      SecurityGroups:
+        - !Ref PHPAlbSG
+      Subnets:
+        - !Ref phpsamplesubnetpublic1
+        - !Ref phpsamplesubnetpublic2
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: fc414c84-bba6-4302-a9ce-fe0b0757d36b
+        
+  PHPAlbTargetGroup:
+    Type: 'AWS::ElasticLoadBalancingV2::TargetGroup'
+    Properties:
+      Name: 'tgphpmlloadbalancer'
+      Port: 80
+      Protocol: HTTP
+      ProtocolVersion: HTTP1
+      TargetType: 'ip'
+      VpcId: !Ref VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 0aa3d0d0-611b-41be-af23-2c7f6b8b3c46
+        
+  PHPALBlistener:
+    Type: 'AWS::ElasticLoadBalancingV2::Listener'
+    Properties:
+      LoadBalancerArn: !Ref PHPALB
+      Port: 80
+      Protocol: HTTP
+      DefaultActions:
+        - Type: forward
+          TargetGroupArn: !Ref PHPAlbTargetGroup
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 1b95e60c-2cc3-4a09-ba84-3b87fa1c8eb7
+        
+  PHPALBlistenerRule:
+    Type: 'AWS::ElasticLoadBalancingV2::ListenerRule'
+    Properties:
+      Actions:
+        - Type: forward
+          TargetGroupArn: !Ref PHPAlbTargetGroup
+      ListenerArn: !Ref PHPALBlistener
+      Priority: 1
+      Conditions:
+        - Field: 'path-pattern'
+          Values: 
+            - '/*'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 308316fe-50bb-4b9f-b78f-b3e6d8c02b4e
+
+  PHPMLRedisCachesg:
+    Type: 'AWS::ElastiCache::SubnetGroup'
+    Properties:
+        Description: Redis Cache Subnet Group
+        SubnetIds:
+            - !Ref phpsamplesubnetprivate1
+            - !Ref phpsamplesubnetprivate2 
+            
+  PHPMLRedisCache:
+    Type: 'AWS::ElastiCache::CacheCluster'
+    Properties:
+      CacheNodeType: cache.t2.micro
+      ClusterName: phprediscachecluster1
+      CacheSubnetGroupName: !Ref PHPMLRedisCachesg
+      Engine: redis
+      EngineVersion: 6.2
+      NumCacheNodes: 1
+      Port: 6379
+      VpcSecurityGroupIds:
+        - !GetAtt 
+            - PHPRedisSG
+            - GroupId
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4196ec39-48d6-4db2-8e96-bb86fc35b8cf
+        
+  PHPmlECSCluster1:
+    Type: 'AWS::ECS::Cluster'
+    Properties:
+      ClusterName: PhpMlFargateCluster
+      CapacityProviders:
+        - FARGATE
+      DefaultCapacityProviderStrategy:
+        - CapacityProvider: FARGATE
+          Weight: 1
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 61e11de6-a6b0-45c1-b04f-e7824a30be2b
+        
+  TaskDefinition:
+    Type: AWS::ECS::TaskDefinition
+    Properties:
+      NetworkMode: awsvpc
+      Cpu: 256
+      Memory: 512
+      Family: 'tdphpmldefintion'
+      ExecutionRoleArn: 'arn:aws:iam::063755811947:role/ecsTaskExecutionRole' #Have to replace with existing attribute
+      RequiresCompatibilities:
+        - 'FARGATE'
+      ContainerDefinitions:
+        - Name: 'phpmicrolearning-container'
+          Image: '063755811847.dkr.ecr.us-east-1.amazonaws.com/phpmicrolearning:latest' #Have to replace with existing attribute
+          Memory: 512
+          PortMappings:
+            - ContainerPort: 80
+        
+  PHPmlECSCluserService1:
+    Type: 'AWS::ECS::Service'
+    DependsOn: 
+        - PHPALBlistener
+        - PHPALBlistenerRule
+    Properties:
+      Cluster: !Ref PHPmlECSCluster1
+      LaunchType: FARGATE
+      LoadBalancers:
+        - ContainerName: 'phpmicrolearning-container'
+          ContainerPort: 80
+          TargetGroupArn: !Ref PHPAlbTargetGroup
+      ServiceName: PhpMlFargateClusterService
+      NetworkConfiguration:
+        AwsvpcConfiguration:
+            AssignPublicIp: ENABLED
+            SecurityGroups:
+                - !Ref PHPECSSG
+            Subnets:
+                - !Ref phpsamplesubnetpublic1
+                - !Ref phpsamplesubnetpublic2
+      TaskDefinition: !Ref TaskDefinition
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: a79901f0-af81-4848-8356-07a6a2be427a
